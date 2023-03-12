@@ -12,7 +12,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -22,7 +23,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -33,7 +35,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -44,7 +47,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -55,7 +59,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -66,7 +71,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -77,7 +83,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -88,7 +95,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>
@@ -101,7 +109,8 @@
 
                 <div class="card-body">
 
-                    {{ __('You are logged in!') }}
+                    {{ __('            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur, dolorem quos, animi eveniet rem earum corporis ratione consectetur sunt in fugiat nulla sit. Accusantium exercitationem ipsa modi explicabo sit.
+') }}
                 </div>
             </div>
         </div>

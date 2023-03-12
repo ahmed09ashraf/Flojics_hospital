@@ -1,3 +1,146 @@
+<center>
+
+![OIP](https://user-images.githubusercontent.com/118169083/224556899-3eb64aea-52d1-4543-b4dc-91636e79e594.png)
+
+</center>
+
+## About Project
+
+
+Laravel  application for full Hospital management project for making appointment and admin dashboard ..
+
+### User :
+1- can register and login .<br>
+2- can show doctors and specialities list .<br>
+3- can make appointment in specific period to book .<br>
+
+### Amin :
+1- can login only with admin code .<br>
+2- can show doctors and specialities list and add new doctor or speciality .<br>
+3- can show appointments list .<br>
+
+## first side
+User side is for browsing his site and make an appointments .
+<br><br>
+1- Home screen for user
+<br><br><br>
+
+![home1](https://user-images.githubusercontent.com/118169083/224555694-d3c2d069-ebcd-4eb5-ad8b-5fecc3f98b59.jpg)
+
+
+![home2](https://user-images.githubusercontent.com/118169083/224555700-eaeb5d8e-b490-4887-aa52-42327fc8289a.jpg)
+
+
+<br><br>
+
+2- Doctors list 
+![doctors](https://user-images.githubusercontent.com/118169083/224556776-15dc8593-c924-443a-8f25-babce3d2595a.jpg)
+
+
+3- login and register page <br><br><br>
+![loginform](https://user-images.githubusercontent.com/118169083/224555704-0dd3f3cb-7327-4969-a6bb-eb76e8263a0e.jpg)
+
+
+![register](https://user-images.githubusercontent.com/118169083/224555711-e19005f0-40f5-46cb-ba13-f895bededfcc.jpg)
+
+<br><br>
+4- make appointments<br>
+<br>
+
+![appointment](https://user-images.githubusercontent.com/118169083/224555724-cbb33277-8fcf-4fa4-80de-25f3d4fc9065.jpg)
+
+
+
+
+<br><br>
+5- show an appointment details<br>
+<br>
+
+![successapp](https://user-images.githubusercontent.com/118169083/224555730-cc1279db-3ea8-43d4-ac34-efc51c2b2a6c.jpg)
+
+
+
+
+<br><br>
+
+
+
+## Second side 
+Admin side  with dashboard <br>
+<br><br>
+
+![admindashboard](https://user-images.githubusercontent.com/118169083/224556373-aaa16df5-3baf-41aa-a7f8-42ce4642700f.jpg)
+
+
+ 
+
+
+
+
+## Security and Validation 
+
+1- all inputs have back-end validation <br>
+2- all inputs have front end validation<br>
+3- we have meddilewares for authintaction <br>
+4- there user validation when login as user or as admin <br>
+
+
+## Data base 
+1- Data-Base created by miagrations and models <br>
+
+
+
+## HOW TO INSTALL THIS 
+1.Run git clone <my-cool-project><br>
+2.Run composer install<br>
+3.Run cp .env.example .env<br>
+4-DbName is flojics_hospital<br>
+4.Run php artisan key:generate<br>
+5.Run php artisan migrate<br>
+6.Run php artisan serve<br>
+    
+ <br>
+    
+## NOTE 
+    to  open admin dashboard you must use admin code ..
+    
+![adminloginform](https://user-images.githubusercontent.com/118169083/224556382-a72324e8-40dc-451a-bcb8-7cae99075179.jpg)
+
+![unauthadmin](https://user-images.githubusercontent.com/118169083/224556396-37038811-c8b2-482b-834b-628efbbf79e4.jpg)
+
+
+![adminlogged](https://user-images.githubusercontent.com/118169083/224556383-c0700dcb-d48e-4822-8152-ca187d89397c.jpg)
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

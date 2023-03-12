@@ -78,7 +78,7 @@
 <button  id="btn">View My Appointment Details</button>
 </div>
 <div id="alert-overlay"></div>
-{{--@foreach($requests as $request)--}}
+{{-- @foreach($requests as $request) --}}
 
 <div id="app-alert-menu">
 
@@ -86,7 +86,7 @@
 
 
         <div>
-            App Id : {{request()->$request->usr_id}}
+            App Id : 
         </div>
 
         <div>
@@ -111,7 +111,7 @@
         <br><br>
         <a id="cancel-app" >Cancel</a>
     </div>
-{{--    @endforeach--}}
+   {{-- @endforeach --}}
 </div>
 
 
@@ -129,7 +129,7 @@
 
     document.getElementById("cancel-app").addEventListener('click',function (){
         let alert  =document.getElementById("alert-overlay");
-        let setting =document.getElementById("app-alert-menu");
+        let app =document.getElementById("app-alert-menu");
         app.style.transition= " 0.2s ease-in-out" ;
         alert.style.display = "none" ;
         app.style.visibility = "hidden" ;

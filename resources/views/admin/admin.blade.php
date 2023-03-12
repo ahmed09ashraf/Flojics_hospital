@@ -43,7 +43,7 @@
                                 <label for="code" class="col-md-4 col-form-label text-md-end">{{ __('Admin Code') }}</label>
 
                                 <div class="col-md-6">
-                                    <input id="code" type="text" name="code" class="form-control"  required  autofocus> </div><br><br>
+                                    <input id="code" type="text" name="code" autocomplete="none" class="form-control"  required  autofocus> </div><br><br>
 
 
                                     <div class="row mb-0">
