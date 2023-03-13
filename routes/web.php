@@ -40,7 +40,7 @@ Auth::routes();
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 Route::post('/admin', [AdminController::class, 'index'])->name('admin');
 Route::post('/admin/logged', [AdminController::class, 'adminlogin'])->name('admin.logged');
-//Route::group(['middleware' => ['auth:sanctum']], function () {
+Route::group(['middleware' => ['auth:sanctum']], function () {
 
     
     Route::get('/admin/appointments', [AdminController::class, 'appointment'])->name('admin.appointments');
@@ -49,4 +49,4 @@ Route::post('/admin/logged', [AdminController::class, 'adminlogin'])->name('admi
     Route::post('/admin/specialities/create', [AdminController::class, 'addSpeciality'])->name('admin.spec.create');
     Route::get('/admin/doctors', [AdminController::class, 'doctors'])->name('admin.doctors');
     Route::post('/admin/doctors/create', [AdminController::class, 'addDoctor'])->name('admin.doc.create');
-//}) ;
+}) ;

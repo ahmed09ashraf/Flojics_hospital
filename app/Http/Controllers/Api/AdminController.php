@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\Appointment;
 use App\Models\Doctor;
 use App\Models\Speciality;
 use App\Models\User;
@@ -38,16 +39,30 @@ class AdminController extends Controller
         return response($res, 201);
     }
 
+
+
+    public function appointments(){
+        $appointments = Appointment::all() ;
+
+        return $appointments ;
+    }
+
+
+
     public function users(){
         $users = User::all() ;
         return $users ;
     }
+
+
 
     public function specialities(){
         $specialities = Speciality::all() ;
         return $specialities ;
     }
 
+
+    
     public function addSpeciality(Request $request){
         $data = $request->validate([
             'name' => 'required',
@@ -56,8 +71,6 @@ class AdminController extends Controller
         $speciality = Speciality::create([
             'name' => $data['name'],
         ]);
-
-
         $res = [
             'speciality' => $speciality ,
         ];

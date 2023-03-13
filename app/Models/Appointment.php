@@ -14,7 +14,7 @@ class Appointment extends Model
         'phone',
         'speciality_id',
         'date',
-       'user_id',
+        'user_id',
         'time' ,
     ];
 
@@ -23,16 +23,14 @@ class Appointment extends Model
 
     public function user()
     {
-        // hasOne
-        // belongsTo
+     
         return $this->belongsTo(User::class, 'user_id', 'id');
     }
 
     public $timestamps = false;
     public function speciality()
     {
-        // hasOne
-        // belongsTo
+        
         return $this->belongsTo(Speciality::class, 'speciality_id', 'id');
     }
 }

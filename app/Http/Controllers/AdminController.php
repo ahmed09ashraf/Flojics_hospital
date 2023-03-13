@@ -44,12 +44,15 @@ public function index(){
     }
 
 
+
     public function appointment(){
     $appointments = Appointment::all() ;
 
         return $appointments ;
     }
 
+
+    
     public function users(){
     $users = User::all() ;
     return $users ;

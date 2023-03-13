@@ -26,7 +26,6 @@ class AppointmentController extends Controller
 
     public function submit(Request $request)
     {
-//        dd(Speciality::all()) ;
 //        dd($request->all()) ;
             Appointment::create([
             'user_id' => $request['user_id'] ,
@@ -42,8 +41,8 @@ $reqjson = json_encode($req) ;
 //dd(request()) ;
         return view('success_app', [
 
-//            'requests' =>$reqjson
-        request()
+           'requests' =>$reqjson
+        
 
         ]);
 

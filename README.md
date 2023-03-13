@@ -14,7 +14,7 @@ Laravel  application for full Hospital management project for making appointment
 2- can show doctors and specialities list .<br>
 3- can make appointment in specific period to book .<br>
 
-### Amin :
+### Admin :
 1- can login only with admin code .<br>
 2- can show doctors and specialities list and add new doctor or speciality .<br>
 3- can show appointments list .<br>

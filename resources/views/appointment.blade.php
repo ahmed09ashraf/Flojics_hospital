@@ -38,13 +38,6 @@
                     @endforeach
                 </select>
 
-
-
-
-
-
-
-
             </div>
             <div>
                 <label> </label>

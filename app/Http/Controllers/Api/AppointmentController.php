@@ -8,10 +8,6 @@ use Illuminate\Http\Request;
 
 class AppointmentController extends Controller
 {
-public function index(){
-    return 'HELLO TORRES' ;
-}
-
 
     public function submit(Request $request)
     {

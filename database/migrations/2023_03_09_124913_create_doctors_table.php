@@ -14,8 +14,6 @@ return new class extends Migration
         Schema::create('doctors', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-       //     $table->foreignId('speciality_id')->nullable()->references('id')->on('specialities')->cascadeOnDelete();
-          //  $table->foreign('speciality_id')->references('id')->on('specialities');
             $table->string('email')->unique();
             $table->timestamps();
         });
