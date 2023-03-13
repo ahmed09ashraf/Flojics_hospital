@@ -24,10 +24,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 // ==============================  User Routes ============================== //
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
+Route::post('/logout', [AuthController::class, 'logout']);
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/appointment', [AppointmentController::class, 'submit']);
-
+    Route::post('/logout', [AuthController::class, 'logout']);
 }) ;
 
 

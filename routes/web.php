@@ -25,6 +25,7 @@ Route::get('/', function () {
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']) ;
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/doctors', [MainController::class , 'doctors']) ;
+
 Auth::routes();
 
 // ==============================  User Routes ============================== //
@@ -42,7 +43,7 @@ Route::post('/admin', [AdminController::class, 'index'])->name('admin');
 Route::post('/admin/logged', [AdminController::class, 'adminlogin'])->name('admin.logged');
 Route::group(['middleware' => ['auth:sanctum']], function () {
 
-    
+
     Route::get('/admin/appointments', [AdminController::class, 'appointment'])->name('admin.appointments');
     Route::get('/admin/users', [AdminController::class, 'users'])->name('admin.users');
     Route::get('/admin/specialities', [AdminController::class, 'specialities'])->name('admin.specialities');
